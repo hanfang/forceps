@@ -8,5 +8,5 @@ chr	start	end	query	strand	edit_distance	mis_match	insertion	deletion	back_to_ba
 
 marlin is currently under development.
 
-Contact: Han Fang hanfang.cshl@gmail.com
+Contact: Han Fang hanfang.cshl@gmail.com \n
 https://github.com/hanfang/marlin
