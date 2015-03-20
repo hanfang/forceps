@@ -1,0 +1,3 @@
+#!/bin/sh
+
+../simple-gapped-align -e -r ref.fa qry.fa
