@@ -1,7 +1,8 @@
 marlin
 ==============
+marlin is a tool for designing RNA antisense oligonucleotides. It is built with the Smith–Waterman algorithm for end gap free local sequence alignment, while allowing both Wobble pairing and Watson-Crick pairing. 
 
-marlin is a tool for designing RNA antisense oligonucleotides. It is built with the Smith–Waterman algorithm for local sequence alignment, while allowing both Wobble pairing and Watson-Crick pairing. marlin reports the number of edit distances, mismatches, insertions, deletions, back to back ed, and ed near either end of the query sequence.
+marlin reports the number of edit distance (ED), mismatches (MM), insertions (INS), deletions (DEL), back-to-back (B2B) ED, and ED near either end of the query sequence.
 
 marlin report format:
 
