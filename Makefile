@@ -1,2 +1,2 @@
-marlin: simple-gapped-align.cc util.cc align.cc
-	g++ simple-gapped-align.cc util.cc align.cc -o marlin
+forceps: simple-gapped-align.cc util.cc align.cc
+	g++ simple-gapped-align.cc util.cc align.cc -o forceps
