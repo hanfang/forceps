@@ -123,7 +123,7 @@ st = datetime.datetime.fromtimestamp(ts).strftime('%Y-%m-%d %H:%M:%S')
 print >> sys.stderr, "[",st,"] [ Remove the kmers with only mm ] \n"
 
 onlymm=max_med[max_med.MM == maxnum_med].qry
-good_cand=max_med[~max_med.MM.isin(onlymm)]
+good_cand=max_med[~max_med.qry.isin(onlymm)]
 good_cand.to_csv('./min_ed/good_cand.txt', sep='\t',index=False)
 
 #print 'good_cand'
