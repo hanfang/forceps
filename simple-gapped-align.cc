@@ -240,21 +240,6 @@ int main(int argc, char ** argv)
     		int start_mapping = start + dis_to_fiveprime ; //
     		int end_mapping   = start_mapping + Q_aln.length() ; //
 
-    		/*
-    		// Convert the integers to string
-    		string start_mapping_str;
-    		ostringstream convert_start;
-    		convert_start << start_mapping;
-    		start_mapping_str = convert_start.str();
-
-    		string end_mapping_str;
-    		ostringstream convert_end;
-    		convert_end << end_mapping;
-    		end_mapping_str = convert_end.str();
-				
-			// Combine the string to report the alignment location
-			std::string mapping_loc = chrom + ":" + start_mapping_str + "-" + end_mapping_str ; // 
-			*/ 
 
 			// Report if the mutations occur near the edge
 			if (hdl_end == true && hdl_mid == false) 
@@ -388,21 +373,7 @@ int main(int argc, char ** argv)
 
     		int start_mapping = start + dis_to_fiveprime ;
     		int end_mapping   = start_mapping + Q_aln.length() ;
-    		/*
-    		// Convert the integers to string
-    		string start_mapping_str;
-    		ostringstream convert_start;
-    		convert_start << start_mapping;
-    		start_mapping_str = convert_start.str();
 
-    		string end_mapping_str;
-    		ostringstream convert_end;
-    		convert_end << end_mapping;
-    		end_mapping_str = convert_end.str();
-				
-			// Combine the string to report the alignment location
-			std::string mapping_loc = chrom + ":" + start_mapping_str + "-" + end_mapping_str ; 
-			*/
 			// Report if the mutations occur near the edge
 	    	if (hdl_end == true && hdl_mid == false) 
 	    	{
