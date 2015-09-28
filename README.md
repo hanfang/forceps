@@ -4,7 +4,7 @@ forceps is a tool for designing RNA antisense oligonucleotides. It is built with
 
 forceps reports the number of edit distance (ED), mismatches (MM), insertions (INS), deletions (DEL), back-to-back (B2B) ED, and ED near either end of the query sequence.
 
-forceps report format:
+## forceps report format:
 
 chr	start	end	query	strand	edit_distance	mis_match	insertion	deletion	back_to_back	near_edge	Wobble
 
