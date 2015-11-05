@@ -12,10 +12,8 @@ forceps reports the number of edit distance (ED), mismatches (MM), insertions (I
 
 
 | chr | start | end | query | strand |
-|---|---|---|---|---|
-|   |   |   |   |   |
-|   |   |   |   |   |
-|   |   |   |   |   |
+|---|---|---|---|---|---|---|---|---|---|
+|   |   |   |   |   |   |   |   |   |   |
 
 forceps is currently under development.
 
