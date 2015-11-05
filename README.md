@@ -6,9 +6,10 @@ forceps reports the number of edit distance (ED), mismatches (MM), insertions (I
 
 ## forceps report format:
 
- chr | start | end | query | strand | ED | MM | INS | DEL | B2B | near_edge | Wobble 
- --- | ----- | --- | ----- | ------ | -- | -- | --- | --- | --- | --------- | ------ 
- chr1| 10001 | 10008| ACTG | +      | 0  | 0  |  0  |  0  | 0   | 0         | 0      
+| chr | start | end | query | strand | ED | MM | INS | DEL | B2B | near_edge | Wobble |
+| --- | ----- | --- | ----- | ------ | -- | -- | --- | --- | --- | --------- | ------ |
+| chr1| 10001 | 10008| ACTG | +      | 0  | 0  |  0  |  0  | 0   | 0         | 0      |
+
 forceps is currently under development.
 
 Contact: Han Fang hanfang.cshl@gmail.com
