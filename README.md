@@ -6,7 +6,7 @@ forceps reports the number of edit distance (ED), mismatches (MM), insertions (I
 
 forceps report format:
 
-chr	start	end	query	strand	edit_distance	mis_match	insertion	deletion	back_to_back	near_edge	Wobble
+| chr | start | end | query | strand | ED | MM | INS | DEL | B2B | near_edge | Wobble |
 
 forceps is currently under development.
 

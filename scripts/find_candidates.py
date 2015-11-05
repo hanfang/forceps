@@ -11,7 +11,8 @@ from numpy.random import randn
 import pandas as pd
 import datetime
 import time
-
+import argparse
+ 
 
 ## Require a fasta file as input
 if not len(sys.argv) == 3:
